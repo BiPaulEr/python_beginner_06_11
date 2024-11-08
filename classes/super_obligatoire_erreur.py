@@ -17,5 +17,7 @@ class C(A, B):
         A.__init__(self)
         B.__init__(self)
         print("C init")
-    
+
+print(C.__mro__)  
+
 c = C()
